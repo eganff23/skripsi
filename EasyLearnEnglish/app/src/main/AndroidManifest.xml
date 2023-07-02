@@ -9,15 +9,61 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="landscape"
         android:supportsRtl="true"
         android:theme="@style/Theme.EasyLearnEnglish"
         tools:targetApi="31">
         <activity
-            android:name=".kuis"
+            android:name=".cerita_taman"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".ceritaSemut"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".bacadengar"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".skor_gambar"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".tebakGambar"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".game"
             android:exported="false" />
+        <activity
+            android:name=".ulangan"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".skor"
+            android:label="Skor Activity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".time"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".object"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".verb"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".kuis"
+            android:exported="false"
+            android:screenOrientation="landscape" />
         <activity
             android:name=".splashscreen"
             android:exported="true"
+            android:screenOrientation="landscape"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,12 +73,8 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            android:exported="false"
+            android:screenOrientation="landscape">
         </activity>
     </application>
 
