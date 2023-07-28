@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".ceritaSemut"
+    tools:context=".dengarbaca.ceritaSemut"
     android:background="@drawable/awann">
 
     <ImageView
@@ -49,6 +49,7 @@
             android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_weight="1"
+            android:visibility="gone"
             android:src="@drawable/paused" />
 
         <ImageView
@@ -56,6 +57,7 @@
             android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_weight="1"
+            android:visibility="gone"
             android:src="@drawable/stop"/>
     </LinearLayout>
 

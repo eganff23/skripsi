@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ulangan"
-    android:padding="10dp"
+    tools:context=".ujian.ulangan"
     android:background="@drawable/bgpon">
 
     <LinearLayout
@@ -21,46 +20,46 @@
         <ImageView
             android:id="@+id/img_materi"
             android:layout_width="0dp"
-            android:layout_height="80dp"
+            android:layout_height="90dp"
             android:layout_weight="1"
             android:contentDescription="TODO"
             android:onClick="materi"
-            android:src="@drawable/blackboard" />
+            android:src="@drawable/materi" />
 
         <ImageView
             android:id="@+id/img_book"
             android:layout_width="0dp"
-            android:layout_height="80dp"
+            android:layout_height="90dp"
             android:layout_weight="1"
             android:contentDescription="TODO"
             android:onClick="book"
-            android:src="@drawable/book" />
+            android:src="@drawable/bukue" />
 
         <ImageView
             android:id="@+id/img_kuis"
             android:layout_width="0dp"
-            android:layout_height="74dp"
+            android:layout_height="90dp"
             android:layout_weight="1"
             android:contentDescription="TODO"
-            android:src="@drawable/graduation" />
+            android:src="@drawable/kuiss" />
 
         <ImageView
             android:id="@+id/img_game"
             android:layout_width="0dp"
-            android:layout_height="67dp"
+            android:layout_height="90dp"
             android:layout_weight="1"
             android:contentDescription="TODO"
             android:onClick="game"
-            android:src="@drawable/puzzle" />
+            android:src="@drawable/game" />
 
         <ImageView
             android:id="@+id/img_user"
             android:layout_width="0dp"
-            android:layout_height="67dp"
+            android:layout_height="90dp"
             android:layout_weight="1"
             android:contentDescription="TODO"
             android:onClick="user"
-            android:src="@drawable/user" />
+            android:src="@drawable/profil" />
 
     </LinearLayout>
 

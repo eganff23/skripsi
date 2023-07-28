@@ -23,4 +23,9 @@
     <color name="orange2">#FF9A00</color>
     <color name="orange3">#FF7400</color>
     <color name="orange4">#FF4D00</color>
-    <color name="orange5">#FF0000</color></resources>
+    <color name="orange5">#FF0000</color>
+
+    <color name="colorTransparent">#43000000</color>
+    <color name="colorTransparent2">#A4000000</color>
+
+</resources>

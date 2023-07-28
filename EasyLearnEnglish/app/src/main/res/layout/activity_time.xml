@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".time"
+    tools:context=".materi.time"
     android:background="@drawable/awann">
 
     <ImageView

@@ -6,65 +6,83 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:icon="@mipmap/ic_alien"
+        android:label="ELEng"
+        android:roundIcon="@mipmap/ic_alien_round"
         android:screenOrientation="landscape"
         android:supportsRtl="true"
         android:theme="@style/Theme.EasyLearnEnglish"
         tools:targetApi="31">
         <activity
-            android:name=".cerita_taman"
+            android:name=".info"
             android:exported="false"
             android:screenOrientation="landscape"/>
         <activity
-            android:name=".ceritaSemut"
-            android:exported="false"
-            android:screenOrientation="landscape"/>
-        <activity
-            android:name=".bacadengar"
-            android:exported="false"
-            android:screenOrientation="landscape"/>
-        <activity
-            android:name=".skor_gambar"
-            android:exported="false"
-            android:screenOrientation="landscape"/>
-        <activity
-            android:name=".tebakGambar"
-            android:exported="false"
-            android:screenOrientation="landscape"/>
-        <activity
-            android:name=".game"
-            android:exported="false" />
-        <activity
-            android:name=".ulangan"
+            android:name=".profil"
             android:exported="false"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".skor"
+            android:name=".puzzle.game_hard"
+            android:exported="false" />
+        <activity
+            android:name=".puzzle.game_medium"
+            android:exported="false" />
+        <activity
+            android:name=".puzzle.game_easy"
+            android:exported="false" />
+        <activity
+            android:name=".dengarbaca.cerita_taman"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".dengarbaca.ceritaSemut"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".dengarbaca.bacadengar"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ujian.skor_gambar"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ujian.tebakGambar"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".puzzle.game"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ujian.ulangan"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ujian.skor"
             android:label="Skor Activity"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".time"
+            android:name=".materi.time"
             android:exported="false"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".object"
+            android:name=".materi.object"
             android:exported="false"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".verb"
+            android:name=".materi.verb"
             android:exported="false"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".kuis"
+            android:name=".ujian.kuis"
             android:exported="false"
             android:screenOrientation="landscape" />
         <activity
             android:name=".splashscreen"
-            android:exported="true"
             android:screenOrientation="landscape"
-            android:theme="@style/Theme.AppCompat.NoActionBar">
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -74,8 +92,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="false"
-            android:screenOrientation="landscape">
-        </activity>
+            android:screenOrientation="landscape" />
     </application>
 
 </manifest>

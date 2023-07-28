@@ -15,58 +15,77 @@
         android:src="@drawable/logout"
         android:onClick="keluar"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:contentDescription="TODO"/>
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="230dp"
+        android:contentDescription="TODO"
+        android:onClick="info"
+        android:src="@drawable/iconin"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center"
-    android:layout_marginBottom="80dp">
-    <Button
-        android:id="@+id/btn_verb"
-        android:layout_width="264dp"
-        android:layout_height="64dp"
-        android:onClick="verb"
-        android:text="Verbs"
-        app:cornerRadius="20dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.488"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.204" />
 
-    <Button
-        android:id="@+id/btn_object"
-        android:layout_width="264dp"
-        android:layout_height="64dp"
-        android:onClick="object"
-        android:text="Object"
-        app:cornerRadius="20dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.484"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.443" />
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginBottom="50dp">
 
-    <Button
-        android:id="@+id/btn_time"
-        android:layout_width="264dp"
-        android:layout_height="64dp"
-        android:onClick="time"
-        android:text="Time"
-        app:cornerRadius="20dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.48"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.671" />
-</LinearLayout>
+        <Button
+            android:id="@+id/btn_verb"
+            android:layout_width="264dp"
+            android:layout_height="64dp"
+            android:onClick="verb"
+            android:text="Verbs"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.488"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.204" />
+
+        <Button
+            android:id="@+id/btn_object"
+            android:layout_width="264dp"
+            android:layout_height="64dp"
+            android:onClick="object"
+            android:text="Object"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.484"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.443" />
+
+        <Button
+            android:id="@+id/btn_time"
+            android:layout_width="264dp"
+            android:layout_height="64dp"
+            android:onClick="time"
+            android:text="Time"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.48"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.671" />
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -81,49 +100,48 @@
         <ImageView
             android:id="@+id/img_materi"
             android:layout_width="0dp"
-            android:layout_height="80dp"
+            android:layout_height="90dp"
             android:layout_weight="1"
             android:contentDescription="TODO"
-            android:src="@drawable/blackboard" />
+            android:src="@drawable/materiii" />
 
         <ImageView
             android:id="@+id/img_book"
             android:layout_width="0dp"
-            android:layout_height="80dp"
+            android:layout_height="90dp"
             android:layout_weight="1"
             android:contentDescription="TODO"
             android:onClick="book"
-            android:src="@drawable/book" />
+            android:src="@drawable/bukue" />
 
         <ImageView
             android:id="@+id/img_kuis"
             android:layout_width="0dp"
-            android:layout_height="74dp"
+            android:layout_height="90dp"
             android:layout_weight="1"
             android:contentDescription="TODO"
             android:onClick="kuis"
-            android:src="@drawable/graduation" />
+            android:src="@drawable/kuis" />
 
         <ImageView
             android:id="@+id/img_game"
             android:layout_width="0dp"
-            android:layout_height="67dp"
+            android:layout_height="90dp"
             android:layout_weight="1"
             android:contentDescription="TODO"
             android:onClick="game"
-            android:src="@drawable/puzzle" />
+            android:src="@drawable/game" />
 
         <ImageView
             android:id="@+id/img_user"
             android:layout_width="0dp"
-            android:layout_height="67dp"
+            android:layout_height="90dp"
             android:layout_weight="1"
             android:contentDescription="TODO"
             android:onClick="user"
-            android:src="@drawable/user" />
+            android:src="@drawable/profil" />
 
     </LinearLayout>
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
